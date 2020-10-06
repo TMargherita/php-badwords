@@ -12,10 +12,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Badwords</title>
   </head>
   <body>
-    <h2><?php echo $testoCorretto; ?></h2>
-    <h3><?php echo $lunghezza; ?></h3>
+    <div class="wrapper">
+      <h1>Badwords</h1>
+      <h2><?php echo $testoCorretto; ?></h2>
+      <h3><?php echo $lunghezza; ?></h3>
+    </div>
+
   </body>
 </html>
